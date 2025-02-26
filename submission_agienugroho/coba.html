@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 News 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Raleway", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: #f5f5f5;
+        color: #1e1e1e;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: #15151e;
+        color: white;
+        padding: 20px 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .logo span {
+        color: #e10600;
+      }
+
+      .nav-links {
+        display: flex;
+        list-style: none;
+      }
+
+      .nav-links li {
+        margin-left: 30px;
+      }
+
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 30px;
+      }
+
+      #content {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+
+      article {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+      }
+
+      article h2 {
+        color: #15151e;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e10600;
+        padding-bottom: 10px;
+      }
+
+      aside {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: fit-content;
+      }
+
+      footer {
+        background-color: #15151e;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .headline-img {
+        width: 90%; /* Changed from 100% to 90% */
+        height: auto;
+        border-radius: 8px;
+        margin: 15px auto; /* Added 'auto' to center the image */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: block; /* Added to help with centering */
+      }
+
+      .team-section {
+        margin: 20px 0;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .team-content {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+      }
+
+      .team-img {
+        width: 180px; /* Changed from 150px to 180px */
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .team-heading {
+        color: #e10600;
+        margin: 20px 0 10px 0;
+        font-size: 1.2rem;
+        border-left: 3px solid #e10600;
+        padding-left: 10px;
+      }
+
+      .drivers-section {
+        margin: 20px 0;
+      }
+
+      .driver-row {
+        display: flex;
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        gap: 20px;
+        align-items: center;
+      }
+
+      .driver-img {
+        width: 120px; /* Changed from 100px to 120px */
+        height: 150px; /* Changed from 100px to 120px */
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #e10600;
+      }
+
+      .driver-info {
+        flex: 1;
+      }
+
+      .driver-info h4 {
+        margin-bottom: 5px;
+        color: #15151e;
+      }
+
+      .nationality {
+        font-size: 0.9rem;
+        color: #777;
+        margin-bottom: 5px;
+      }
+
+      .circuit-map {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 15px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">F1 <span>NEWS</span> 2025</div>
+        <ul class="nav-links">
+          <li><a href="#season">Season 2025</a></li>
+          <li><a href="#teams">F1 Teams</a></li>
+          <li><a href="#drivers">Drivers</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="season">
+          <h2>Season 2025 Overview</h2>
+          <img
+            src="img/logo/f1logo.jpg"
+            alt="Formula 1 2025 Cars"
+            class="headline-img"
+          />
+          <p>
+            Musim Formula 1 2025 menjanjikan persaingan yang lebih ketat dengan
+            perubahan regulasi teknis yang signifikan. Total 24 balapan
+            dijadwalkan untuk musim 2025, termasuk Grand Prix baru di Madrid,
+            Spanyol yang menggantikan sirkuit Barcelona.
+          </p>
+          <p>
+            Setelah persaingan ketat di musim 2024, para penggemar menantikan
+            pertarungan antara juara bertahan dan pembalap-pembalap muda yang
+            semakin matang.
+          </p>
+        </article>
+
+        <article>
+          <h2>Perkembangan Revolusioner F1 2025</h2>
+          <img
+            src="img/logo/f1car.jpg"
+            alt="F1 2025 Technical Innovations"
+            class="headline-img"
+          />
+          <p>
+            Musim 2025 menandai era baru dalam Formula 1 dengan perubahan
+            signifikan pada aerodinamika dan sistem propulsi. Penggunaan bahan
+            bakar berkelanjutan meningkat hingga 75%, menunjukkan komitmen F1
+            terhadap keberlanjutan lingkungan.
+          </p>
+          <p>Beberapa perubahan teknis utama musim 2025 meliputi:</p>
+          <ul>
+            <li>
+              Sistem DRS yang telah dimodifikasi dengan zona aktivasi yang lebih
+              fleksibel
+            </li>
+            <li>
+              Baterai ERS baru dengan kapasitas penyimpanan energi 20% lebih
+              besar
+            </li>
+            <li>
+              Aturan aerodinamika yang lebih ketat untuk mengurangi efek "air
+              kotor" dan meningkatkan pertarungan di lintasan
+            </li>
+            <li>Batasan berat minimum mobil yang diturunkan menjadi 790 kg</li>
+          </ul>
+          <p>
+            Kompetisi antar tim terlihat lebih ketat dari sebelumnya, dengan gap
+            performa antara empat tim teratas hanya berkisar 0.3 detik pada tes
+            pra-musim di Bahrain. Mercedes menunjukkan peningkatan signifikan
+            dibandingkan musim lalu, sementara McLaren terus membangun
+            momentumnya dari akhir musim 2024.
+          </p>
+          <p>
+            Peningkatan jumlah balapan sprint menjadi 10 event juga menambah
+            variabel strategi yang harus dipertimbangkan tim. Sistem poin baru
+            untuk balapan sprint memberikan insentif lebih besar bagi pembalap
+            untuk berjuang di setiap lap.
+          </p>
+        </article>
+
+        <article id="teams">
+          <h2>F1 Teams 2025</h2>
+
+          <div class="team-section">
+            <h3 class="team-heading">Red Bull Racing</h3>
+            <div class="team-content">
+              <img
+                src="/api/placeholder/150/100"
+                alt="Red Bull Racing 2025 Car"
+                class="team-img"
+              />
+              <div>
+                <p>
+                  Red Bull Racing telah mempertahankan dominasi mereka dengan
+                  pengembangan terus-menerus pada paket aerodinamis. Tim dari
+                  Milton Keynes ini memfokuskan pengembangan pada efisiensi
+                  downforce dan stabilitas di tikungan berkeceatan tinggi.
+                </p>
+                <p>
+                  Dengan kehadiran Adrian Newey yang masih memimpin departemen
+                  teknis, Red Bull mengimplementasikan inovasi baru pada sistem
+                  pendinginan dan packaging mesin yang lebih kompak. Peningkatan
+                  reliabilitas menjadi fokus utama setelah beberapa kegagalan
+                  teknis di musim 2024.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-section">
+            <h3 class="team-heading">Mercedes-AMG Petronas</h3>
+            <div class="team-content">
+              <img
+                src="/api/placeholder/150/100"
+                alt="Mercedes 2025 Car"
+                class="team-img"
+              />
+              <div>
+                <p>
+                  Mercedes telah melakukan perombakan besar pada konsep desain
+                  mobil mereka, kembali ke filosofi 'zero-pod' yang
+                  dimodifikasi. Setelah dua musim yang penuh tantangan, tim yang
+                  berbasis di Brackley ini menunjukkan tanda-tanda kebangkitan
+                  signifikan di akhir 2024.
+                </p>
+                <p>
+                  Departemen teknis di bawah pimpinan James Allison berhasil
+                  mengatasi masalah bouncing dan ketidakstabilan yang mengganggu
+                  performa mereka. Pengembangan sistem suspensi baru dan
+                  perbaikan pada unit tenaga memberikan optimisme bagi George
+                  Russell dan pendatang baru Kimi Antonelli.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-section">
+            <h3 class="team-heading">Scuderia Ferrari</h3>
+            <div class="team-content">
+              <img
+                src="img/logo/ferrrarif1logo.jpg"
+                alt="Ferrari 2025 Car"
+                class="team-img"
+              />
+              <div>
+                <p>
+                  Ferrari fokus pada peningkatan keandalan mesin dan efisiensi
+                  energi untuk 2025. Kedatangan Lewis Hamilton membawa motivasi
+                  dan pengalaman baru ke tim dari Maranello yang terus berjuang
+                  untuk kembali ke puncak.
+                </p>
+                <p>
+                  Di bawah kepemimpinan teknis Frederic Vasseur, Ferrari
+                  melakukan restrukturisasi departemen aerodinamika dan merekrut
+                  beberapa insinyur kunci dari tim rival. Peningkatan
+                  pengelolaan ban dan performa di trek bertemperatur tinggi
+                  menjadi prioritas utama setelah analisis kelemahan musim 2024.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-section">
+            <h3 class="team-heading">McLaren F1 Team</h3>
+            <div class="team-content">
+              <img
+                src="img/logo/mclarenf1logo.jpg"
+                alt="McLaren 2025 Car"
+                class="team-img"
+              />
+              <div>
+                <p>
+                  McLaren melanjutkan perkembangan positif dengan memperkenalkan
+                  inovasi baru pada sistem suspensi depan dan belakang. Tim dari
+                  Woking ini berhasil mempertahankan momentum dari musim 2024
+                  yang mengesankan.
+                </p>
+                <p>
+                  Investasi besar-besaran pada infrastruktur, termasuk fasilitas
+                  terowongan angin baru, mulai menunjukkan hasil dengan
+                  peningkatan konsistensi performa di berbagai jenis sirkuit.
+                  Duo muda Norris-Piastri dianggap sebagai salah satu lineup
+                  terkuat di grid, dengan pengalaman pertarungan di posisi depan
+                  yang semakin matang.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-section">
+            <h3 class="team-heading">Aston Martin F1 Team</h3>
+            <div class="team-content">
+              <img
+                src="img/logo/astonf1logo.jpg"
+                alt="Aston Martin 2025 Car"
+                class="team-img"
+              />
+              <div>
+                <p>
+                  Aston Martin terus membangun proyek ambisius mereka dengan
+                  pengembangan fasilitas baru di Silverstone. Rekrutmen teknis
+                  agresif dan investasi dari Lawrence Stroll membawa tim ini
+                  semakin dekat ke barisan depan.
+                </p>
+                <p>
+                  Fernando Alonso yang masih menunjukkan performa mengesankan di
+                  usianya yang semakin matang, memberikan umpan balik berharga
+                  untuk pengembangan mobil. Fokus pada fleksibilitas setup dan
+                  performa di berbagai kondisi cuaca menjadi prioritas setelah
+                  inkonsistensi di musim sebelumnya.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-section">
+            <h3 class="team-heading">Alpine F1 Team</h3>
+            <div class="team-content">
+              <img
+                src="/api/placeholder/150/100"
+                alt="Alpine 2025 Car"
+                class="team-img"
+              />
+              <div>
+                <p>
+                  Alpine melakukan restrukturisasi besar-besaran setelah musim
+                  2024 yang sulit. Dengan manajemen baru dan filosofi teknis
+                  yang diperbarui, tim Prancis ini mencoba untuk kembali ke
+                  pertengahan grid.
+                </p>
+                <p>
+                  Pengembangan unit tenaga Renault yang komprehensif dan desain
+                  sasis yang lebih efisien memberikan harapan untuk peningkatan
+                  performa. Kerjasama dengan beberapa pakar aerodinamika dari
+                  dunia motorsport lain membawa perspektif segar pada
+                  pengembangan mobil.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="drivers">
+          <h2>Pembalap F1 2025</h2>
+
+          <h3 class="team-heading">Red Bull Racing</h3>
+          <div class="driver-row">
+            <img
+              src="/api/placeholder/100/100"
+              alt="Max Verstappen"
+              class="driver-img"
+            />
+            <div class="driver-info">
+              <h4>Max Verstappen</h4>
+              <p class="nationality">Belanda 🇳🇱</p>
+              <p>Nomor: 1</p>
+              <p>
+                Juara dunia bertahan yang terus menunjukkan konsistensi dan
+                kecepatan luar biasa. Verstappen memasuki musim 2025 sebagai
+                favorit untuk memperpanjang dominasinya di F1.
+              </p>
+            </div>
+          </div>
+          <div class="driver-row">
+            <img
+              src="/api/placeholder/100/100"
+              alt="Sergio Perez"
+              class="driver-img"
+            />
+            <div class="driver-info">
+              <h4>Sergio Perez</h4>
+              <p class="nationality">Meksiko 🇲🇽</p>
+              <p>Nomor: 11</p>
+              <p>
+                Setelah kontrak baru pada pertengahan 2024, Perez terus menjadi
+                pendukung solid bagi tim dengan fokus pada konsistensi dan
+                pengumpulan poin untuk kejuaraan konstruktor.
+              </p>
+            </div>
+          </div>
+
+          <h3 class="team-heading">Mercedes-AMG Petronas</h3>
+          <div class="driver-row">
+            <img
+              src="img/driver/russell.jpg"
+              alt="George Russell"
+              class="driver-img"
+            />
+            <div class="driver-info">
+              <h4>George Russell</h4>
+              <p class="nationality">Inggris 🇬🇧</p>
+              <p>Nomor: 63</p>
+              <p>
+                Memasuki musim keempat bersama Mercedes, Russell kini mengambil
+                peran pemimpin tim. Kualifikasi yang mengesankan dan performa
+                balapan yang konsisten menjadi karakter utamanya.
+              </p>
+            </div>
+          </div>
+          <div class="driver-row">
+            <img
+              src="/api/placeholder/100/100"
+              alt="Andrea Kimi Antonelli"
+              class="driver-img"
+            />
+            <div class="driver-info">
+              <h4>Andrea Kimi Antonelli</h4>
+              <p class="nationality">Italia 🇮🇹</p>
+              <p>Nomor: 87</p>
+              <p>
+                Rookie berbakat dari program junior Mercedes yang dipromosikan
+                setelah performa mengesankan di Formula 2. Antonelli dianggap
+                sebagai salah satu talenta terbesar generasi baru.
+              </p>
+            </div>
+          </div>
+
+          <h3 class="team-heading">Scuderia Ferrari</h3>
+          <div class="driver-row">
+            <img
+              src="/api/placeholder/100/100"
+              alt="Charles Leclerc"
+              class="driver-img"
+            />
+            <div class="driver-info">
+              <h4>Charles Leclerc</h4>
+              <p class="nationality">Monako 🇲🇨</p>
+              <p>Nomor: 16</p>
+              <p>
+                Memasuki tahun ketujuh bersama Ferrari, Leclerc terus
+                menunjukkan kecepatan luar biasa terutama di kualifikasi.
+                Kontrak jangka panjang menegaskan posisinya sebagai salah satu
+                pilar tim.
+              </p>
+            </div>
+          </div>
+          <div class="driver-row">
+            <img
+              src="/api/placeholder/100/100"
+              alt="Lewis Hamilton"
+              class="driver-img"
+            />
+            <div class="driver-info">
+              <h4>Lewis Hamilton</h4>
+              <p class="nationality">Inggris 🇬🇧</p>
+              <p>Nomor: 44</p>
+              <p>
+                Transfer sensasional ke Ferrari membawa perubahan besar setelah
+                lebih dari satu dekade bersama Mercedes. Hamilton bertekad
+                membuktikan bahwa di usia 40 tahun, ia masih mampu berjuang
+                untuk gelar juara dunia kedelapan.
+              </p>
+            </div>
+          </div>
+
+          <h3 class="team-heading">McLaren F1 Team</h3>
+          <div class="driver-row">
+            <img
+              src="/api/placeholder/100/100"
+              alt="Lando Norris"
+              class="driver-img"
+            />
+            <div class="driver-info">
+              <h4>Lando Norris</h4>
+              <p class="nationality">Inggris 🇬🇧</p>
+              <p>Nomor: 4</p>
+              <p>
+                Setelah meraih kemenangan pertama di F1 pada 2024, Norris
+                semakin percaya diri dan konsisten. Kemitraan dengan Piastri
+                menciptakan salah satu lineup termuda dan paling berbakat di
+                grid.
+              </p>
+            </div>
+          </div>
+          <div class="driver-row">
+            <img
+              src="img/driver/piastri.jpg"
+              alt="Oscar Piastri"
+              class="driver-img"
+            />
+            <div class="driver-info">
+              <h4>Oscar Piastri</h4>
+              <p class="nationality">Australia 🇦🇺</p>
+              <p>Nomor: 81</p>
+              <p>
+                Musim rookie yang mengesankan berlanjut dengan perkembangan
+                pesat di tahun kedua. Piastri menunjukkan kemampuan adaptasi
+                cepat dan racecraft yang matang melebihi usianya.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <h3>Balapan Terdekat</h3>
+        <h4>Australian Grand Prix</h4>
+        <img
+          src="img/logo/australia.png"
+          alt="Melbourne Circuit Map"
+          class="circuit-map"
+        />
+        <p>Melbourne Grand Prix Circuit</p>
+        <p><strong>Tanggal:</strong> 16 Maret 2025</p>
+        <p><strong>Waktu:</strong> 05:00 WIB</p>
+        <p><strong>Jumlah Lap:</strong> 58</p>
+        <p><strong>Panjang Lintasan:</strong> 5.303 km</p>
+        <p><strong>Total Jarak:</strong> 307.574 km</p>
+        <p><strong>Rekor Lap:</strong> 1:20.260 (Charles Leclerc, 2024)</p>
+
+        <h4>Karakteristik Sirkuit</h4>
+        <p>
+          Sirkuit semi-street Melbourne menggabungkan bagian berkeceatan tinggi
+          dengan beberapa area teknis yang menantang. Permukaan jalan yang
+          bervariasi dan cuaca yang tidak dapat diprediksi menambah kompleksitas
+          strategi.
+        </p>
+
+        <h4>Pemenang Terakhir</h4>
+        <p><strong>2024:</strong> Charles Leclerc (Ferrari)</p>
+        <p><strong>2023:</strong> Max Verstappen (Red Bull)</p>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 F1 News. Hak Cipta Dilindungi.</p>
+      </div>
+    </footer>
+  </body>
+</html>
