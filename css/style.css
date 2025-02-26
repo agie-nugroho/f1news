@@ -54,15 +54,31 @@ nav p{
     color: white;
     text-decoration: none;
     font-weight: 500;
+    transition: 0.2s ease-in;
+    padding: 8px;
+}
+
+.navlink a:hover {
+    color: #1D1616;
+    background-color: #D84040;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.navlink a:active {
+    background-color: white;
+    color: #D84040;
+
 }
 
 main {
-    max-width: 1500px;
+    max-width: 75%;
     margin: 0 auto;
     padding: 20px;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 30px;
+    gap: 20px;
+    color: black;
 }
 
 #content {
@@ -86,11 +102,14 @@ article h2 {
 }
 
 aside {
+    width: auto;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 10px 10px rgba(0, 0, 0,  0.2);
     height: fit-content;
+    position: sticky;
+    top: 20px;
 }
 
 footer {
@@ -140,7 +159,14 @@ footer {
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 2px 10px 10px rgba(0, 0, 0,  0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
+}
+
+.team-img:hover,
+.driver-img:hover {
+    transition: scale(1.05);
+   
+    box-shadow: 2px 5px 10px rgba(0, 0, 0,  0.4);
 }
 
 .team-name {
@@ -198,7 +224,13 @@ footer {
     main {
         max-width: 1000px;
         gap: 20px;
+        grid-template-columns: 1fr;
         padding: 15px;
+    }
+
+    aside {
+        position: static;
+        width: 100%;
     }
 
     .headout-img {
@@ -212,7 +244,8 @@ footer {
     }
 
     .team-img {
-        width: 150px;
+        width: 100%;
+        max-width: 200px;
     }
 
     .driver-top {
@@ -221,8 +254,8 @@ footer {
     }
 
     .driver-img {
-        width: 100px;
-        height: 120px;
+        width: 120px;
+        height: 150px;
     }
 
     nav {
@@ -240,5 +273,49 @@ footer {
 
     .navlink li {
         margin-left: 20px;
+    }
+}
+
+/* Layout 768px */
+@media screen and (max-width: 768px) {
+    nav p {
+        flex-direction: column;
+        margin-left: 5px;
+        text-align: center;
+        /* align-items: flex-start; */
+    }
+
+    .navlink {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+
+    .team-description {
+        grid-template-columns: 1fr;
+    }
+
+    .team-img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .driver-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .driver-img {
+        width: 120px;
+        height: 150px;
+    }
+
+    aside {
+        padding: 25px;
+    }
+
+    article p, .team-description p, .driver-info p {
+        font-size: 14px; /* Ukuran font lebih kecil */
     }
 }
